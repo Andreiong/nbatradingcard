@@ -1,0 +1,533 @@
+body {
+  background-color: white;
+}
+
+.Quotes {
+
+  height: 300px;
+  width: 1300px;
+  position: absolute;
+  top: 250px;
+  left: 30px;
+}
+
+.Bulaclacf {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Bulaclac.jpg");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.b1 {
+  position: absolute;
+  top: 280px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.lacbu {
+
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  text-align: center;
+}
+
+.Dumalef {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Jeruzael.jpg");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+.d1 {
+  position: absolute;
+  left: 220px;
+  top: 280px;
+  width: 200px;
+
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.dums {
+
+  position: absolute;
+  top: 80px;
+  left: 265px;
+  text-align: center;
+}
+
+.Jolof {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Jolo.jpg");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 440px;
+}
+
+.j1 {
+  position: absolute;
+  left: 450px;
+  top: 280px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.juls {
+
+  position: absolute;
+  top: 80px;
+  left: 490px;
+  text-align: center;
+}
+
+.Ongf {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Ong.png");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 660px;
+}
+
+.o1 {
+
+  position: absolute;
+  left: 663px;
+  top: 280px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.well {
+
+  position: absolute;
+  top: 80px;
+  left: 685px;
+  text-align: center;
+}
+
+.Pamintuanf {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Pamintuan.png");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+
+.pa1 {
+
+  position: absolute;
+  left: 885px;
+  top: 280px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.juswa {
+
+  position: absolute;
+  top: 80px;
+  left: 883px;
+  text-align: center;
+}
+
+.Sebastianf {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("formal/Sebastian.jpg");
+  background-size: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.s1 {
+
+  position: absolute;
+  left: 1100px;
+  top: 280px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(95, 90, 90);
+}
+
+.seb {
+
+  position: absolute;
+  top: 80px;
+  left: 1105px;
+  text-align: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+/* NAVBAR */
+    .header{
+        width: 100%;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    .header ul{
+        float: right;
+    }
+    .header li{
+        display: inline-block;
+        margin: 13px;
+        font-family:monospace;
+        float: left;
+    }
+    .header a{
+        color: rgba(0, 0, 0, 0.63);
+    }
+    .header img{
+        width: 10px;
+        height: 10px;
+    }
+    .header i{
+        color: rgba(0, 0, 0, 0.65);
+        margin-right: 5px;
+    }
+    .container{
+        width: 100%;
+        height:112px;
+        background-color: #0a3665;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding:5px 50px;
+    }
+    .logo{
+        height:100px;
+        margin-right: auto;
+    }
+    .search{
+        margin: 10px auto;
+    }
+    .search input{
+        padding: 10px;
+        width: 750px;
+        height: 38px;
+        outline: none;
+        border: 1px #000 solid;
+        border-radius: 10px;
+    }
+    .cart{
+        margin-right: 10%;
+    }
+    .cart img{
+        margin-left: 30px;
+    }
+    .category{
+        width: 100%;
+        height:35px;
+        padding:0 50px;
+        background-color: #096aaf;
+    }
+    .category ul{
+        display: flex;
+        justify-content: center;
+    }
+    .category li{
+        line-height: 35px;
+    }
+    .category a{
+        color: #fff;
+        padding-right: 40px;
+        font-size: 12px;
+        font-family:arial;
+        font-weight:600;
+        letter-spacing: 1px;
+    }
+    .container-sidebar{
+        width: 17%;
+        float:left;
+        border-top: 1px rgba(163, 158, 158, 0.75) solid;
+        margin-top: 2%;
+    }
+    .sidebar-left{
+        padding: 20px;
+        border-bottom: 1px rgba(163, 158, 158, 0.75) solid;
+    }
+    .sidebar-left ul{
+        margin-left: 5px;
+        padding-top: 20px;
+    }
+    .sidebar-left li{
+        padding: 4px;
+    }
+
+    .sidebar-left a{
+        padding:5px;
+        color: rgba(0, 0, 0, 0.82);
+    }
+    .sidebar-left a:hover{
+        background-color: rgba(255, 0, 0, 0.69)
+    }
+    /* END NAVBAR */
+
+h4 {
+  color: rgb(95, 90, 90);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.locations {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 23px;
+
+}
+.loc1{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.loc2{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.loc3{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+
+.contacts {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  margin-left: 95px;
+}
+.num1{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.num2{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.num3{
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+
+.phonelogo {
+  background-image: url("logos/phone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.loclogo {
+  background-image: url("logos/loc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.emaillogo {
+  background-image: url("logos/email.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.Address {
+  height: 400px;
+  width: 320px;
+  position: absolute;
+  top: 650px;
+  left: 180px;
+
+}
+
+.Phone {
+  height: 400px;
+  width: 320px;
+  position: absolute;
+  top: 650px;
+  left: 550px;
+
+}
+
+.Email {
+  height: 400px;
+  width: 320px;
+  position: absolute;
+  top: 650px;
+  left: 880px;
+
+}
+
+.emails {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  margin-left: 78px;
+}
+
+.sebastian {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.ongsim {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.josuah {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.jolo {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.philip {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.jeru {
+  color: rgb(95, 90, 90);
+  font-size: 15px;
+  font-family:arial;
+  font-weight: bolder;
+}
+.container-footer{
+  position: absolute;
+  top: 1080px;
+    width:100%;
+    padding: 40px 30px;
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content:flex-start;
+}
+.content{
+    padding:10px;
+    margin-right: auto;
+}
+
+.content ul{
+    color: #fff;
+    padding-top: 10px;
+}
+.content li{
+    padding-top: 10px;
+}
+.content p{
+    color:#fff;
+}
+.content-3{
+    margin-right:auto;
+}
+.content-3 p{
+    color: #fff;
+}
+.content-3 i{
+    color: #fff;
+    padding: 10px 3px;
+    font-size: 25px
+}

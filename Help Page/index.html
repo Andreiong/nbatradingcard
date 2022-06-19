@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Help Page | FAQ </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body background="images/top.jpg">
+  <div class="accordion">
+    <div class="image-box">
+      <img src="images/Nba.jpg" alt="">
+    </div>
+    <div class="accordion-text">
+      <div class="title">We're here to help</div>
+    <ul class="faq-text">
+      <li>
+        <div class="question-arrow">
+          <span class="question">What is an NBA Trading Card?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>A basketball card or NBA card is a type of trading card relating to basketball, usually printed on cardboard, silk or plastic.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Are NBA cards a good investment? </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Buying and holding onto unopened boxes should be a relatively safe long-term investment. But if you're a risk taker, you might also consider investing long-term in younger, unproven talent.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Why is an NBA Card Expensive?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>The value on an NBA card, much like any other collectible, depends on multiple factors, like the featured player, the year it was manufactured, and what part the of a collection the card is from. Rookie cards are typically priced the highest because the potential of the players will dictate the value.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">How do NBA Cards make money?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Investing is usually a long-term strategy to make money from your baskteball cards. It involves purchasing a card at the lowest price possible, giving the card time to appreciate in value and then eventually selling it to make a profit.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">How do you know if a basketball card is valuable?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>You can check the list of sold items similar to your card and see the value they were of the price and the date they were sold. You can base your selling price in this and see if people might be interested in buying.</p>
+        <span class="line"></span>
+      </li>
+    </ul>
+        <p style="text-align:right"> <a href="">  Go back </a>
+</p>
+       
+
+    </div>
+  </div>
+    
+  <script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+  </script>
+
+</body>
+</html>

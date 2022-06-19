@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+    }
+  
+    body{
+    overflow-y: visible;
+    background-color: rgba(239, 240, 245, 0.49);
+    }
+    .clear{
+        clear: both;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+    ul{
+        list-style: none;
+        }
+    /* NAVBAR */
+    .header{
+        width: 100%;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    .header ul{
+        float: right;
+    }
+    .header li{
+        display: inline-block;
+        margin: 13px;
+        font-family:monospace;
+        float: left;
+    }
+    .header a{
+        color: rgba(0, 0, 0, 0.63);
+    }
+    .header img{
+        width: 10px;
+        height: 10px;
+    }
+    .header i{
+        color: rgba(0, 0, 0, 0.65);
+        margin-right: 5px;
+    }
+    .container{
+        width: 100%;
+        height:112px;
+        background-color: #0a3665;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding:5px 50px;
+    }
+    .logo{
+        height:100px;
+        margin-right: auto;
+    }
+    .search{
+        margin: 10px auto;
+    }
+    .search input{
+        padding: 10px;
+        width: 750px;
+        height: 38px;
+        outline: none;
+        border: 1px #000 solid;
+        border-radius: 10px;
+    }
+    .cart{
+        margin-right: 10%;
+    }
+    .cart img{
+        margin-left: 30px;
+    }
+    .category{
+        width: 100%;
+        height:35px;
+        padding:0 50px;
+        background-color: #096aaf;
+    }
+    .category ul{
+        display: flex;
+        justify-content: center;
+    }
+    .category li{
+        line-height: 35px;
+    }
+    .category a{
+        color: #fff;
+        padding-right: 40px;
+        font-size: 12px;
+        font-family:arial;
+        font-weight:600;
+        letter-spacing: 1px;
+    }
+    .container-sidebar{
+        width: 17%;
+        float:left;
+        border-top: 1px rgba(163, 158, 158, 0.75) solid;
+        margin-top: 2%;
+    }
+    .sidebar-left{
+        padding: 20px;
+        border-bottom: 1px rgba(163, 158, 158, 0.75) solid;
+    }
+    .sidebar-left ul{
+        margin-left: 5px;
+        padding-top: 20px;
+    }
+    .sidebar-left li{
+        padding: 4px;
+    }
+
+    .sidebar-left a{
+        padding:5px;
+        color: rgba(0, 0, 0, 0.82);
+    }
+    .sidebar-left a:hover{
+        background-color: rgba(255, 0, 0, 0.69)
+    }
+    /* END NAVBAR */
+    
+    /* Form */
+.content-container{
+    width: 70%;
+    height: 487px;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.22) solid;
+    box-shadow: 5px 5px 5px 5px rgba(155, 155, 155, 0.42);
+}
+.left-content{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-image: url(../image/bg_kobe.jpg);
+    background-repeat: no-repeat;
+}
+
+.left-content p{
+    color: #fff;
+}
+.left-content1{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-image: url(../image/bg_kobe2.jpg);
+      background-repeat: no-repeat;
+}
+
+.left-content1 p{
+    color: #fff;
+}
+.left{
+    width: 80%;
+    margin: 0px auto; 
+ 
+}
+.right-content{
+    background-color: rgba(239, 240, 245, 0.17);
+    text-align: center;
+    float: right;
+    height: 100%;
+    width: 60%;
+ 
+}
+.right{
+    width: 70%;
+    margin: 0px auto;
+}
+.right img{
+    height:60px;
+    margin: 5px;
+}
+.right p{
+    font-family:arial;
+    letter-spacing: 2px;
+     margin: 2px;
+}
+.signup-content{
+    margin-top: 10px;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.signup-content input, select{
+    border-radius: 3px;
+    margin: 8px;
+    padding: 11px 7px;
+    background-color: rgba(199, 199, 199, 0.13);
+    border: 1px rgba(157, 157, 157, 0.71) solid; 
+    outline-color:  rgba(0, 156, 255, 0.77);
+    color: rgba(0, 0, 0, 0.62);
+}
+.signup-content input[name=mnumber], input[name=address], input[name=city], input[name=street], input[name=country], input[name=email], input[name=street], input[name=country], input[name=password]{
+    width: 95%;
+}
+.signup-content input[name=fname], input[name=lname]{
+    width: 45%;
+}
+
+.button{
+    text-align: center;
+    margin: 10px;
+}
+.button p, .button2 p{
+    font-family: monospace;
+    font-size: 11px;
+    margin: 20px;
+    color: rgba(124, 121, 121, 0.9);
+    letter-spacing: 3px;
+}
+.second-text{
+     font-family: monospace;
+    font-size: 11px;
+    margin: 20px;
+    color: rgba(124, 121, 121, 0.9);
+    letter-spacing: 3px;
+}
+.second-text a{
+    color: rgba(0, 0, 255, 0.92);
+}
+.button a{
+    color: rgba(0, 0, 255, 0.92);
+}
+.button button{
+    width: 50%;
+    padding: 13px 20px;
+    justify-content: center;
+    background-color: rgb(8, 152, 244);
+    color: #fff;
+    border: 1px rgba(85, 85, 85, 0.44) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button button:hover, .button2 button:hover{
+    background-color: rgba(86, 180, 240, 0.87);
+    transition: 0.5s ease-in-out;
+}
+.slider-container{
+    position: relative;
+}
+.slider-container .slide-container .slide{
+    position: relative;
+    overflow: hidden;
+
+}
+.slider-container .slide-container .slide .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: fadeIn .4s linear;
+}
+@keyframes fadeIn{
+    0%{
+        transform:scale3d(-100.0.0);
+    }
+}
+.slider-container .slide-container{
+    display:none;
+    
+}
+.slider-container .slide-container.active{
+    display: block;
+}
+.button2{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+.button2 button{
+    width: 45%;
+    padding: 13px 20px;
+    justify-content: center;
+    background-color: rgb(8, 152, 244);
+    color: #fff;
+    border: 1px rgba(85, 85, 85, 0.44) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+    /* End Form */

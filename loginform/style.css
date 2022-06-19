@@ -1,0 +1,205 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+    }
+  }
+    body{
+        overflow-y: visible;
+    }
+    .clear{
+        clear: both;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    ul{
+        list-style: none;
+    }
+/* NAVBAR */
+    .header{
+        width: 100%;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    .header ul{
+        float: right;
+    }
+    .header li{
+        display: inline-block;
+        margin: 13px;
+        font-family:monospace;
+        float: left;
+    }
+    .header a{
+        color: rgba(0, 0, 0, 0.63);
+    }
+    .header img{
+        width: 10px;
+        height: 10px;
+    }
+    .header i{
+        color: rgba(0, 0, 0, 0.65);
+        margin-right: 5px;
+    }
+    .container{
+        width: 100%;
+        height:112px;
+        background-color: #0a3665;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding:5px 50px;
+    }
+    .logo{
+        height:100px;
+        margin-right: auto;
+    }
+    .search{
+        margin: 10px auto;
+    }
+    .search input{
+        padding: 10px;
+        width: 750px;
+        height: 38px;
+        outline: none;
+        border: 1px #000 solid;
+        border-radius: 10px;
+    }
+    .cart{
+        margin-right: 10%;
+    }
+    .cart img{
+        margin-left: 30px;
+    }
+    .category{
+        width: 100%;
+        height:35px;
+        padding:0 50px;
+        background-color: #096aaf;
+    }
+    .category ul{
+        display: flex;
+        justify-content: center;
+    }
+    .category li{
+        line-height: 35px;
+    }
+    .category a{
+        color: #fff;
+        padding-right: 40px;
+        font-size: 12px;
+        font-family:arial;
+        font-weight:600;
+        letter-spacing: 1px;
+    }
+    .container-sidebar{
+        width: 17%;
+        float:left;
+        border-top: 1px rgba(163, 158, 158, 0.75) solid;
+        margin-top: 2%;
+    }
+    .sidebar-left{
+        padding: 20px;
+        border-bottom: 1px rgba(163, 158, 158, 0.75) solid;
+    }
+    .sidebar-left ul{
+        margin-left: 5px;
+        padding-top: 20px;
+    }
+    .sidebar-left li{
+        padding: 4px;
+    }
+
+    .sidebar-left a{
+        padding:5px;
+        color: rgba(0, 0, 0, 0.82);
+    }
+    .sidebar-left a:hover{
+        background-color: rgba(255, 0, 0, 0.69)
+    }
+    /* END NAVBAR */
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    border-radius:5%;
+    background: #000000;
+    color: #fff;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position:absolute;
+    top: -50px;
+    left: cal(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;    
+}
+
+.loginbox p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;   
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;    
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height:  40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;   
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey
+}
+.loginbox a:hover
+{
+    color: #ffc107;
+}

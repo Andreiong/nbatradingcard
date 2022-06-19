@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.02);
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+.container-sidebar{
+    width: 17%;
+    float:left;
+    border-top: 1px rgba(163, 158, 158, 0.75) solid;
+    margin-top: 2%;
+}
+.sidebar-left{
+    padding: 20px;
+    border-bottom: 1px rgba(163, 158, 158, 0.75) solid;
+}
+.sidebar-left ul{
+    margin-left: 5px;
+    padding-top: 20px;
+}
+.sidebar-left li{
+    padding: 4px;
+}
+
+.sidebar-left a{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding:5px;
+    color: rgba(0, 0, 0, 0.82);
+}
+.sidebar-left p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.82);
+}
+.sidebar-left a:hover{
+    background-color: rgba(255, 0, 0, 0.69);
+    transition:1s;
+    border-radius: 5px;
+}
+.sidebar-right{
+    padding: 20px;
+    width: 83%;
+    float:right;
+    margin-top: 2%;
+}
+.sidebar-right h3{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.83);
+}
+.container-right{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    height: 400px;
+    width: 30%;
+    margin:10px 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px rgba(0, 0, 0, 0.04) solid;
+}
+.product:hover{
+
+}
+.product-image{
+    padding: 5px;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.product h2{
+    text-align: center;
+    padding: 5px;
+}
+.product h4{
+    text-align: center;
+    padding: 10px;
+}
+.product p{
+    text-align: center;
+    padding:10px 10px;
+    font-size: 13px;
+    font-family: arial;
+    line-height: 20px;
+    color: rgb(95, 90, 90);
+}
+
+.prod-1{
+    background-image: url('../image/jordan.jpg');
+}
+.prod-2{
+    background-image: url('../image/kobe.jpg');
+}
+.prod-3{
+    background-image: url('../image/lebron.jpg');
+}
+.prod-4{
+    background-image: url('../image/curry.jpg');
+}
+.prod-5{
+    background-image: url('../image/doncic.jpg');
+}
+.prod-6{
+    background-image: url('../image/bird.jpg');
+}
+/* footer */
+.container-footer{
+    width:100%;
+    padding: 40px 30px;
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content:flex-start;
+}
+.content{
+    padding:10px;
+    margin-right: auto;
+}
+
+.content ul{
+    color: #fff;
+    padding-top: 10px;
+}
+.content li{
+    padding-top: 10px;
+}
+.content p{
+    color:#fff;
+}
+.content-3{
+    margin-right:auto;
+}
+.content-3 p{
+    color: #fff;
+}
+.content-3 i{
+    color: #fff;
+    padding: 10px 3px;
+    font-size: 25px
+}
+/* end footer */
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 3px;
+}
+.product_container{
+    background-color: #ffffff;
+    border: 2px rgba(0, 0, 0, 0.63) solid;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.41);
+    width: 230px;
+    height: 320px;
+    position: relative;
+    margin:20px 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.product_container:hover{
+    border: 5px solid #f87c7c;
+}
+.product_container img{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.transition{
+     opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.transition:hover{
+    opacity: 1;
+}
+.background_image{
+    background-color: rgba(0, 0, 0, 0.48);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.background_image:hover{
+    opacity: 1;
+}
+.product_container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+     width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.81);
+    bottom: 0px;
+}
+.product_container a{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 100px 0px;
+    background-color: rgb(252, 0, 0);
+    color: white;
+    font-family: monospace;
+    cursor: pointer;
+}
+.product_container form a:hover{
+    background-color: rgb(203, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-content{
+    width: 80%;
+    margin: 0px auto;
+}
+.product_name{
+    color: rgba(0, 0, 0, 0.92);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px;
+     font-family: sans-serif
+}
+.product_price{
+    color: rgba(0, 0, 0, 0.92);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+/* SUCCESS MESSAGE */
+
+.success{
+  background: #9bffa3;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  border-radius: 4px;
+  border-left: 8px solid #02ff81;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.success.showAlert{
+  opacity: 1;
+  pointer-events: auto;
+}
+.success.show{
+  animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+  0%{
+    transform: translateX(100%);
+  }
+  40%{
+    transform: translateX(-10%);
+  }
+  80%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+}
+.success.hide{
+  animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+  0%{
+    transform: translateX(-10px);
+  }
+  40%{
+    transform: translateX(0%);
+  }
+  80%{
+    transform: translateX(-10%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+.success i{
+
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #09b202;
+  font-size: 20px;
+}
+.success .msg{
+  padding: 0 20px;
+  font-size: 18px;
+  color: #098804;
+}
+.success .close-btn{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #02ff81;
+  padding: 30px 25px;
+  cursor: pointer;
+}
+.success .close-btn:hover{
+  background: #06cc69;
+}
+.close-btn i{
+  color: #02be60;
+  font-size: 22px;
+  line-height: 40px;
+}
+/* END OF SUCCESS MESSAGE */
